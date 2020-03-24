@@ -7,7 +7,7 @@ interface Props {
     setSelectedCountry: Function
 }
 
-const WorldMap: FC<Props> = ({ selectedCountry = 'AR', setSelectedCountry = () => {} }) => {
+const WorldMap: FC<Props> = ({ selectedCountry = 'AL', setSelectedCountry = () => {} }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 
 const Header: FC = () => {
-    const [theme, setTheme] = useLocalStorage('theme', 'dark')
+    const [theme, setTheme] = useLocalStorage('theme', 'light')
     const themes: Record<string, any> = { dark: 'light', light: 'dark'}
 
     useEffect(() => {
