@@ -11,7 +11,7 @@ interface Country {
 }
 
 const CountryStats: FC = () => {
-    const [selectedCountry, setSelectedCountry] = useLocalStorage('country-selected', { 'country': 'Argentina', 'code': 'AR'});
+    const [selectedCountry, setSelectedCountry] = useLocalStorage('country-selected', { 'country': 'Albania', 'code': 'AL'});
     const [countryData, countryLoading, cError] = useFetch(
         `https://covid19.mathdro.id/api/countries/${selectedCountry.code}`
     )
