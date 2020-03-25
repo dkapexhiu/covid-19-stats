@@ -21,14 +21,14 @@
     --text-color: #1f2028;
     --accent-color: theme('colors.orange.600');
     --muted-color: theme('colors.gray.700');
-    --inset-shadow: 0px 0px 0px 0px #fff9, 
-                    0px 0px 0px 0px #fff9, 
-                    0px 0px 0px 0px #0001, 
-                    0px 0px 0px 0px #0001, 
-                    inset -7px -7px 20px 0px #fff9, 
-                    inset -4px -4px 5px 0px #fff9, 
-                    inset 7px 7px 20px 0px #0003, 
-                    inset 4px 4px 5px 0px #0001;
+    --inset-shadow: -7px -7px 20px 0px #fff9, 
+    -4px -4px 5px 0px #fff9, 
+    7px 7px 20px 0px #0002, 
+    4px 4px 5px 0px #0001, 
+    inset 0px 0px 0px 0px #fff9, 
+    inset 0px 0px 0px 0px #0001, 
+    inset 0px 0px 0px 0px #fff9, 
+    inset 0px 0px 0px 0px #0001;
     --outset-shadow: -7px -7px 20px 0px #fff9, 
                     -4px -4px 5px 0px #fff9, 
                     7px 7px 20px 0px #0002, 
